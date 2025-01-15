@@ -7,11 +7,11 @@ use Discord\WebSockets\Intents;
 use GuzzleHttp\Client;
 
 $discord = new Discord([
-    'token' => 'MTMyOTE3ODY4OTA0ODU0MzI1Mw.Goe4hw.ZkYuwLQqb9kKd0U4YZiaXQFd9n4kejjM_WTA9w', // Zastąp prawdziwym tokenem bota
+    'token' => '', // Zastąp prawdziwym tokenem bota
 ]);
 
 // Klucz API dla YouTube
-$youtubeApiKey = 'AIzaSyDU2d1_7c023Z0vElQm4THGQcJOZAb8j9k'; // Zastąp prawdziwym kluczem API YouTube
+$youtubeApiKey = ''; // Zastąp prawdziwym kluczem API YouTube
 
 //searchYouTube("top music hits", $youtubeApiKey);
 
